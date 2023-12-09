@@ -17,11 +17,10 @@ public class MainForm {
        // String versionNumber = "1.1";
        // versionText.setText("v" + versionNumber);
 
-        modpackVersionDropDown.addItem("1.20.1 (latest)");
-        modpackVersionDropDown.addItem("1.19.3");
+        modpackVersionDropDown.addItem("1.20.2 (latest)");
 
         selectOptionalModsButton.addActionListener(e -> {
-            JDialog about = new JDialog(frame, "Optionale Mods", true);
+            JDialog about = new JDialog(frame, "Optional Mods", true);
             about.setContentPane(new OptionsForm(about,installUtil).OptionFormPanel);
             about.setResizable(false);
             about.setSize(500, 300);
@@ -32,7 +31,7 @@ public class MainForm {
         });
         installModpackButton.addActionListener(e -> {
             String modpackVersion = modpackVersionDropDown.getSelectedItem().toString();
-            JDialog loading = new JDialog(frame, "Installiere...", true);
+            JDialog loading = new JDialog(frame, "Installing...", true);
             loading.setContentPane(new LoadingForm(installUtil, frame, loading,modpackVersion).LoadingForm);
             loading.setResizable(false);
             loading.setSize(500, 150);

@@ -10,6 +10,7 @@ public class OptionsForm {
     private JButton speichernButton;
 
     private JCheckBox replayModCheckBox;
+    private JCheckBox distantHorizonsCheckBox;
     private JDialog dialog;
 
     public OptionsForm(JDialog dialog,final InstallUtil installUtil) {

@@ -15,7 +15,7 @@ public class Installer {
     public static void main(String[] args) {
 
         FlatOneDarkIJTheme.install(new FlatOneDarkIJTheme());
-        final JFrame frame = new JFrame("BTE Germany Installer");
+        final JFrame frame = new JFrame("Alps BTE - Modpack Installer");
         try {
             frame.setIconImage(ImageIO.read(MainForm.class.getResourceAsStream("/logo.png")));
         } catch (IOException e) {

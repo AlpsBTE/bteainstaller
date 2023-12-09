@@ -27,7 +27,7 @@
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Optionale Mods auswählen"/>
+          <text value="Select optional mods"/>
         </properties>
       </component>
       <component id="1062a" class="javax.swing.JButton" binding="installModpackButton">
@@ -35,7 +35,7 @@
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Modpack installieren/updaten"/>
+          <text value="Install / Update Modpack"/>
         </properties>
       </component>
       <hspacer id="b888c">
@@ -53,7 +53,7 @@
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="v1.1"/>
+          <text value="v1.0"/>
         </properties>
       </component>
       <component id="686d9" class="javax.swing.JComboBox" binding="modpackVersionDropDown">
